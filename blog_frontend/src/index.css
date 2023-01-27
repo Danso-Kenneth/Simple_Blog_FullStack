@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Livvic:wght@700&family=Poppins:wght@500;700&display=swap");
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;700;800;1000&display=swap'); */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    /* font-family: "Nunito", sans-serif; */
+  }
+
+  .redBorder {
+    border:2px solid red!important;
+  }
+
+  
+
+
+
+.default{
+  border: none;
+}
+  .info{
+    background-color: red;
+    font-size:60px;
+    z-index: -2;
+    position: absolute;
+    top:-5rem;
+  }
+
+  .landingpage{
+    overflow-x:hidden;
+    overflow-y:hidden;
+  }
+  
+.footer{
+  display: grid;
+  
+}
+
+.liner{
+  display:none;
+}
+
+.stats{
+  text-align: center;
+  margin-bottom: 10rem;
+}
+.stats h1{
+  margin-bottom: 20px;
+  
+}
+
+.stats p{
+ width:30%;
+ position:relative;
+ left:30rem;
+ color:#9E9AA8;
+ line-height: 20px;
+}
+
+.bluebar{
+  width:31.5%;
+  height:10px;
+  color:#2BD0D0;
+  background-color: #2BD0D0;
+  position: relative;
+  top:-10rem;
+  left:29rem;
+}
+
+
+.selected{
+  background-color:#3A3054 !important;
+}
+
+.notSelected{
+ background-color:#2BD0D0 !important;
+}
+
+@media (min-width:320px) and (max-width:623px){
+     .stats{
+       font-size:14px;
+       padding:20px;
+       position:relative;
+       top:15rem;
+
+     }
+
+     .liner{
+      display:block;
+      background-color: #CCC;
+      height:1px;
+     }
+
+     .stats h1{
+      width:300px;
+     }
+
+     .stats p{
+      width:80vw;
+      /* color:red; */
+      position:relative;
+      left:1rem;
+     }
+
+
+     .bluebar{
+      position: relative;
+      left:-8.5rem;
+      width:180vw;
+      top:-12rem;
+      transform: rotate(90deg);
+     }
+
+    
+ }
+
+
+ @media (min-width:375px) and (max-width:623px){
+
+  .bluebar{
+    left:-9rem;
+  }
+ }
+
+ @media (min-width:425px) and (max-width:623px){
+    .stats h1{
+      position:relative;
+      left:2.3rem;
+    }
+
+    .bluebar{
+      left:-10.3rem;
+      
+    }
+}
+
+
+ @media (min-width:703px) and (max-width:768px){
+  .stats{
+    padding-top:25rem;
+  }
+
+  .liner{
+    display: none;
+  }
+
+  .inputt{
+    background-color: red;
+  }
+  .notinput{
+    background-color: blue;
+  }
+  .stats p{
+    left:10.5rem;
+    width:60vw;
+  }
+
+  .bluebar{
+    position: relative;
+    left:4.5rem;
+    width:75vw;
+    top:-35rem;
+    transform: rotate(90deg);
+   }
+
+
+ }
